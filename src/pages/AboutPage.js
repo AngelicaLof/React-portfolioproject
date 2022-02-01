@@ -9,7 +9,7 @@ const AboutPage  = () => {
     return ( 
       <div className="history">
         <h1 style={{paddingTop: '50px'}}>CV </h1>
-         <div className="hist"> <div className="histinfo"><p id='para'>Text Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+         <div className="hist"> <div className="histinfo"><p id='para'>Text hej Lorem ipsum dolor sit amet consectetur adipisicing elit. 
          Fuga magnam dolore recusandae voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga magnam dolore recusandae voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga magnam dolore recusandae voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
          Fuga magnam dolore recusandae voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit.with other Italian foods. 
          </p></div></div>
