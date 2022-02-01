@@ -12,7 +12,7 @@ const Footer = () => {
             <footer className="footer1">
 <div className="footer-container">
     <div className="footer"><h3>Contact</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga magnam dolore recusandae voluptatum </p> </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <p>angelica.lofland@student.kyh.se</p> </div>
     <div className="footer"><h3>About</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga magnam dolore recusandae voluptatum  </p></div>
     <div className="footer"><h3>Social media</h3>
