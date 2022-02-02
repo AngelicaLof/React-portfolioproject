@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import React from "react";
-
+import RecipePage from "./pages/RecipePage";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
@@ -27,7 +27,8 @@ return (
 <Nav id="links" className ="ml-auto" style={{backgroundColor:'transparent'}}>
 <Link className="nav-link" to ="/">Home</Link>
 <Link className="nav-link" to ="/about">Information</Link>
-<Link className="nav-link" to ="/recipe">Recipe</Link>
+<Link className="nav-link" to ="/contact">Contact</Link>
+<Link className="nav-link" to ="/recipes">Recipes</Link>
 <Link className="nav-link" to ="/vote">Vote</Link>
 
 </Nav>
@@ -36,7 +37,8 @@ return (
 <Routes>
 <Route path="/" element = {<HomePage />} />
 <Route path="/about" element ={<AboutPage />} />
-<Route path="/recipe" element ={<ContactPage />} />
+<Route path="/contact" element ={<ContactPage />} />
+<Route path="/recipes" element ={<RecipePage />} />
 <Route path="/vote" element ={<Vote />} />
 </Routes>
 
