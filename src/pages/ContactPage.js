@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Footer from "../components/Footer";
 import emailjs from "emailjs-com";
 
-//receptsida med video och länkar med recept
+//contactpage med mailfunktion
 
 const ContactPage = () => {
 
